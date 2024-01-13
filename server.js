@@ -35,7 +35,7 @@ app.use((req, res, next) => {
     next()
 })
 
-app.get('/', (req, res) => {
+app.get('https://cse341-w1-api.onrender.com/', (req, res) => {
     res.send('Welcome to the API');
 })
 
