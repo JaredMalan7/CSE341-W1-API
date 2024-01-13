@@ -1,0 +1,25 @@
+const testProfessionalData = (req, res) => {
+    const ProfessionalData = {
+        professionalName: 'Jared Malan',
+        base64Image: 'base64ImageString',
+        nameLink: {
+            firstName: 'Jared',
+            url: '',
+        },
+        primaryDescription: 'Full Stack Developer',
+        workDescription1: 'Experience in web development...',
+        workDescription2: 'Skilled in JavaScript, HTML, CSS...',
+        linkTitleText: 'Links:',
+        linkedInLink: {
+            text: 'LinkedIn',
+            link: 'https://linkedin.com/in/jaredmalan7',
+        },
+        githubLink: {
+            text: 'GitHub',
+            link: 'https://github.com/JaredMalan7',
+        },
+    }
+    res.exports = { testProfessionalData }
+}
+
+module.exports = { testProfessionalData }
