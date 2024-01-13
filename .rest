@@ -2,3 +2,6 @@ GET http://localhost:8080/professional HTTP/1.1
 
 ###
 GET https://cse341-w1-api.onrender.com HTTP/1.1
+
+###
+GET https://cse341-w1-api.onrender.com/professional
