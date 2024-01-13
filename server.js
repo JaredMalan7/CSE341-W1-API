@@ -35,6 +35,10 @@ app.use((req, res, next) => {
     next()
 })
 
+app.get('/', (req, res) => {
+    res.send('Welcome to the API');
+})
+
 app.get('/professional', (req, res) => {
     res.json(professionalData)
 })
