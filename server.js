@@ -41,7 +41,7 @@ app.use((req, res, next) => {
 // })
 
 app.get('/professional', (req, res) => {
-    res.json(professionalData)
+    res.send(professionalData)
 })
 
 
