@@ -3,6 +3,7 @@ const fs = require('fs')
 const app = express();
 const port = process.env.PORT || 8080;
 
+
 const professionalData = {
     professionalName: 'Jared Malan',
     base64Image: base64Encode('professional-photo.JPG'),
@@ -35,8 +36,8 @@ app.use((req, res, next) => {
     next()
 })
 
-app.get('https://cse341-w1-api.onrender.com/', (req, res) => {
-    res.send('Welcome to the API');
+app.get('/', (req, res) => {
+    res.send('Welcome to the API')
 })
 
 app.get('/professional', (req, res) => {
