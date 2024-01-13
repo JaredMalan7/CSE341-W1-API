@@ -6,7 +6,7 @@ async function apiFetch(url) {
 }
 
 const getData = async () => {
-    const data = await apiFetch('https://cse341-w1-api.onrender.com') //testing deployment
+    const data = await apiFetch('https://cse341-w1-api.onrender.com/professional') //testing deployment
     displayAllData(data);
 };
 
